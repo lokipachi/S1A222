@@ -15,5 +15,11 @@ p {
   font-size: 16px;
 }
 /*ここから*/
+p::befor{
+  content: "■";
+  margin-right: 4px;
+  color: #ef626c;
+}
+
 
 /*ここまで*/
